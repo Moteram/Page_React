@@ -1,0 +1,44 @@
+.banner{
+  width: 100vw;
+  max-height: 400px;
+  margin: 0 0 5rem;
+}
+.banner>img{
+  max-width: 100%;
+  
+}
+.banner, .awssld, .awssld__wrapper, .awssld__container, .awssld__box, .awssld__content>img{
+  max-width: 100%;
+}
+
+.aws-btn {
+
+  --slider-height-percentage: 31%;
+  --slider-transition-duration: 1000ms;
+  --organic-arrow-thickness: 5px;
+  --organic-arrow-border-radius: 0px;
+  --organic-arrow-height: 46px;
+  --organic-arrow-color: #5b4949;
+  --control-button-width: 10%;
+  --control-button-height: 25%;
+  --control-button-background: transparent;
+  --control-bullet-color: #65c1ab;
+  --control-bullet-active-color: #5f867d;
+  --loader-bar-color: #851515;
+  --loader-bar-height: 4px;
+  }
+  .awssld{
+    --slider-height-percentage: 20% !important;
+  }
+  .awssld__bullets {
+    bottom: 0 !important; 
+    display: none !important;
+}
+@media (min-width:700px){
+
+  .awssld__bullets {
+    bottom: 0 !important; 
+    display: flex !important;
+}
+
+}

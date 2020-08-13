@@ -1,0 +1,39 @@
+.holderForm{
+    width: 228px;
+    background: #EEEEEE;
+    float: right;
+    position: fixed;
+    right: 258px;
+    top: 217px;
+    padding: 21px 21px;
+    z-index: 100;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px #ccc;
+}
+.seguraTitle{
+  display: flex;
+margin: 1rem 0 3rem;
+justify-content: center;
+}
+.seguraTitle>img{
+  position: relative;
+  left: -11px;
+}
+.seguraTxtTitleForm{
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+}
+
+.seguraTxtTitleForm small{
+  text-align: left;
+}
+
+.seguraTxtTitleForm h2{
+    
+    color: #DF0209;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}

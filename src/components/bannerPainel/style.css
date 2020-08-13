@@ -1,0 +1,47 @@
+.seguraTotalBannerPainel{
+
+  width: 100vw;
+  max-height: 600vmax;
+  display: flex;
+  margin: 5rem 0;
+}
+.conteinerBannerPainel{
+
+}
+.seguraIMGGrande{
+  width: 100vw;
+  max-height:404px ;
+display: flex;
+align-content: center;
+justify-content: center;
+
+}
+.seguraIMGGrande>img{
+  width: 100%;
+}
+.listaBannerpainel{
+
+  display: flex;
+justify-content: center;
+align-content: center;
+}
+.listaBannerpainel ul{
+
+  display: flex;
+flex-direction: row;
+margin: 1rem 0 0;
+
+}
+.listaBannerpainel ul>li{
+  list-style: none;
+margin: 0 0.3rem;
+max-width: 250px;
+
+}
+.listaBannerpainel ul li a img{
+max-width: 100%;
+}
+
+.seguraIMGGrande div> nav {
+  bottom: -40px !important; 
+}

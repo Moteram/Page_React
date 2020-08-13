@@ -1,0 +1,123 @@
+.mainthumbBanner{
+  width: 100vw;
+  max-height: 600vmax;
+  display: flex;
+  padding: 1rem 0;
+}
+.mainthumbBanner section h2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 0 1.1rem;
+}
+.thumbBanner{
+  
+  display: flex;
+  flex-direction: column;
+
+}
+.seguraCarroseelMidle{
+  max-width: 895px;
+  padding:  0 1rem;
+  margin: 4rem 0 0;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+.listaD{
+
+}
+.listaD ul{
+  display: flex;
+  flex-direction: inherit;
+}
+.listaD ul li{
+  list-style: none;
+  margin: 1.1rem 0.5rem 0;
+  border: solid 1px #ababab;
+padding: 0.6rem;
+}
+.listaD ul li:first-child{
+  margin: 1.1rem 0 0;
+}
+.thumbGrandE{
+  width: 100%;
+overflow: hidden;
+height: min-content;
+}
+.thumbGrandE>img{
+  max-width: 100%;
+}
+.mainthumbBanner section legend{
+
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin: 2rem 0 0;
+  padding: 0 1.1rem;
+}
+
+.thumbGrandE div div div div ul>.thumb{
+  width: 180px!important;
+  height: 112px;
+}
+.thumbGrandE div div div> .slider .slide {
+  flex-direction: column;
+  flex-flow: column;
+  max-width: 100%;
+  max-height: 212px;
+}
+.thumbGrandE div div div> .slider .slide div>img{
+  max-width: 100%;
+}
+
+.thumbGrandE div div div div ul>.thumb img {
+  vertical-align: top;
+  max-width: 100%;
+  height: 100%;
+}
+.thumbGrandE div div div div div> .thumbs-wrapper,.axis-vertical{
+
+  display: none;
+
+}
+
+@media (min-width:700px){
+
+  .thumbGrandE div div div div ul>.thumb img {
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+  }
+  .thumbGrandE div div div div div> .thumbs-wrapper,.axis-vertical{
+
+    display: block;
+  
+  }
+  .mainthumbBanner section h2{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  
+  font-weight: 100;
+  padding: 0 1.1rem;
+}
+}
+
+@media (min-width:500px){
+  .mainthumbBanner section h2{
+
+    font-size: 25px;
+   
+  }
+
+
+}
