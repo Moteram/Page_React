@@ -66,6 +66,7 @@ height: min-content;
 .thumbGrandE div div div div ul>.thumb{
   width: 180px!important;
   height: 112px;
+  cursor: pointer;
 }
 .thumbGrandE div div div> .slider .slide {
   flex-direction: column;
@@ -98,6 +99,7 @@ height: min-content;
   .thumbGrandE div div div div div> .thumbs-wrapper,.axis-vertical{
 
     display: block;
+    margin: 20px 0 !important;
   
   }
   .mainthumbBanner section h2{

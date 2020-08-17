@@ -3,7 +3,7 @@
     background: #EEEEEE;
     float: right;
     position: fixed;
-    right: 258px;
+    right: 26px;
     top: 217px;
     padding: 21px 21px;
     z-index: 100;
@@ -11,6 +11,8 @@
     box-shadow: 1px 1px 3px #ccc;
     display: flex;
     justify-content: center;
+    transition-duration: 0.5s;
+    display: none;
 }
 .seguraTitle{
   display: flex;
@@ -80,4 +82,19 @@ font-size: 13px !important;
 border-radius: 4px !important;
 border: none !important;
 cursor: pointer;
+}
+
+@media (min-width:1630px){
+
+  .holderForm {
+    right: 58px;
+    transition-duration: 0.5s;
+  }
+}
+@media (min-width:1240px){
+
+  .holderForm {
+  display: block;
+  }
+
 }
