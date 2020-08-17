@@ -20,14 +20,14 @@ function Footer(){
 
         
 
-          <a className="linkE" href="">
+          <a className="linkE" href="#">
             <span>< AiFillEnvironment size={40}/></span>
             <p>Encontre uma</p>
             <h4>CONCESSIONÁRIA</h4>
           </a>
 
         
-        <a className="linkD" href="">
+        <a className="linkD" href="#">
        
             <p>CENTRAL DE ATENDIMENTO</p>
             <h4>(31) 3123-1234</h4>

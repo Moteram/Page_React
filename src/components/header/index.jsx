@@ -1,8 +1,5 @@
 import React from 'react';
 import './style.css';
-import IconHouse from '../../assets/imges/home-button.png';
-import MarcadorMap from '../../assets/imges/icone-grande.png';
-import Carta from '../../assets/imges/1904660-email-envelope-letter-mail-message-post-send_122510.png';
 import Logo from '../../assets/imges/logo.png'
 import { AiFillHome, AiFillEnvironment, AiFillMail } from 'react-icons/ai';
 
