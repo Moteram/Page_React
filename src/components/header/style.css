@@ -8,16 +8,16 @@ header{
 
   width: 100%;
   background:#EEEEEE;
-  height: 29px;
+  height: auto;
   display: flex;
-
+  padding: 1rem 0;
 }
 
 .grade{
   width: 100vw;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;  
+  flex-wrap: nowrap;
+  justify-content: center;  
 }
 .iconHouse, .local, .falar{
   display: flex;
@@ -30,12 +30,15 @@ header{
   display: flex;
   justify-content: space-between;
 }
-.local, .falar{
+.local{
   margin: 0 2rem 0 0;
 }
-.iconHouse{
-  margin: 0 0 0 2rem;
- 
+.falar{
+  margin:0;
+}
+
+.iconHouse {
+  margin: 0 2rem 0 0;
 }
 .barraBranca{
 
@@ -45,13 +48,13 @@ header{
 .gradeBarraBranca{
   width: 100vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
 }
 .logoTopo{
   max-width: 200px;
   height: 51px;
-  margin: 0 0 0 2rem;
+  margin: 0;
 }
 .logoTopo>img{
 max-width: 100%;
@@ -60,6 +63,7 @@ max-width: 100%;
   margin: 0 2rem 0 0;
   width: 215px;
   height: 70px;
+  display: none;
 }
 .txtcentral{
   color: #999;
@@ -83,9 +87,57 @@ letter-spacing: 3px;
   margin: 0 0.5rem 0 0;
   color: #d1d1d1;
 }
+.grade a legend{
+  display: none;
+}
+.pq{
+  display: none;
+}
+.gr{
+  display: block;
+}
 
-@media (min-width:700px){
+@media (min-width:500px){
 
+  .contatobarraBranca{
+    margin: 0 2rem 0 0;
+    width: 215px;
+    height: 70px;
+    display: block;
+  }
+  .gradeBarraBranca {
+    justify-content: space-between;;
+}
+.logoTopo {
+  margin: 0 0 0 2rem;
+}
+.grade a legend{
+  display: block;
+}
+.barraCinza {
+  
+  height: 29px;
+
+}
+.pq{
+  display: block;
+}
+.gr{
+  display: none;
+}
+.grade{
+  width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;  
+}
+.iconHouse{
+  margin: 0 0 0 2rem;
+ 
+}
+.falar{
+  margin:0 2rem 0 0;
+}
 
 
 }

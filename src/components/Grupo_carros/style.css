@@ -4,10 +4,11 @@
 max-height: 600vmax;
 display: flex;
 margin: 5rem 0;
-
+transition-duration: 0.5s;
 }
 .holderModel{
   width: 100%;
+  transition-duration: 0.5s;
 }
 .conteudoGrupocarros{
   max-width: 788px;
@@ -15,6 +16,7 @@ margin: 5rem 0;
   flex-direction: column;
   justify-content: start;
   padding: 0 1rem;
+  transition-duration: 0.5s;
 }
 .conteudoGrupocarros h2{
 
@@ -38,6 +40,7 @@ margin: 5rem 0;
   border: 1px solid #D5D5D5;
   padding: 16px;
   margin: 0 1rem 2rem;
+  transition-duration: 0.5s;
 }
 .model img{
 
@@ -68,8 +71,7 @@ display: flex;
 flex-wrap: wrap;
 text-align: center;
 justify-content: center;
-
-
+transition-duration: 0.5s;
 }
 
 @media (min-width: 700px){

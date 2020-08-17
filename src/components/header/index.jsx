@@ -19,19 +19,22 @@ return(
     <div className="grade">
 
     <a href="" className="iconHouse">
-      <span><AiFillHome size={20}/></span>
+      <span className="pq"><AiFillHome size={20}/></span>
+      <span className="gr"><AiFillHome size={30}/></span>
       <legend>ir para o portal banzai</legend>
     </a>
 
    <div className="seguraDois">
 
     <a href="" className="local">
-      <span><AiFillEnvironment size={20} /></span>
+      <span className="pq"><AiFillEnvironment size={20} /></span>
+      <span className="gr"><AiFillEnvironment size={30}/></span>
       <legend>encontre sua concesonaria</legend>
     </a>
 
     <a href="" className="falar">
-     <span>< AiFillMail size={20}/></span>
+     <span className="pq">< AiFillMail size={20}/></span>
+     <span className="gr"><AiFillMail size={30}/></span>
       <legend>fale conosco</legend>
 
     </a>
