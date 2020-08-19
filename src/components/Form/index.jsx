@@ -24,13 +24,13 @@ return(
     </div>
   </div>
 
-  <form action="">
+  <form action="" method="post" acceptCharset="utf8">
 
     <Input icon={<RiUser3Line size={21}/>} type="text" name="nome" placeholder="Nome:"/>
     <Input icon={<RiMailLine size={21}/>} type="email" name="email" placeholder="Email:"/>
     <Input icon={<RiPhoneLine size={21}/>} type="text" name="tel" placeholder="Telefone:"/>
     <Input icon={<RiTimeLine size={21}/>} type="time" name="horario" placeholder="Escolha o horario:"/>
-    < Select icon={<RiCommunityLine size={21}/>} />
+    < Select icon={<RiCommunityLine size={21}/>} name="local"/>
     <button className="buttonAgendar" type="submit">AGENDAR UMA VISITA</button>
   </form>
 

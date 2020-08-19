@@ -23,6 +23,7 @@ class Select extends Component{
     }
     this.MaoSelectItem = this.MaoSelectItem.bind(this);
 
+    console.log(props);
   }
 
   MaoSelectItem(e){
@@ -39,7 +40,7 @@ class Select extends Component{
 
     <span>{this.props.icon}</span>
   
-  <select value={this.state.selectItem}  onChange={this.MaoSelectItem}>
+  <select value={this.state.selectItem}  onChange={this.MaoSelectItem} name={this.props.name}>
 
   
 
