@@ -17,7 +17,7 @@ header{
   width: 100vw;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;  
+  justify-content: space-around;  
 }
 .iconHouse, .local, .falar{
   display: flex;
@@ -25,16 +25,21 @@ header{
   font-size: 13px;
   height: 29px;
   align-items: center;
+  border: none;
+  cursor: pointer;
+  background: transparent;
 }
 .seguraDois{
   display: flex;
   justify-content: space-between;
 }
 .local{
-  margin: 0 2rem 0 0;
+  margin: 0 9rem 0 0;
+  
 }
 .falar{
   margin:0;
+
 }
 
 .iconHouse {
@@ -73,6 +78,9 @@ max-width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;  
   justify-content: center;
+  border: none;
+  cursor: pointer;
+  background: transparent;
 }
 .fone{
   color: red;
@@ -82,12 +90,15 @@ font-family: Arial, Helvetica, sans-serif;
 display: flex;
 justify-content: center;
 letter-spacing: 3px;
+border: none;
+  cursor: pointer;
+  background: transparent;
 }
 .iconHouse>span, .falar>span,.local>span{
   margin: 0 0.5rem 0 0;
   color: #d1d1d1;
 }
-.grade a legend{
+.grade button legend{
   display: none;
 }
 .pq{
@@ -111,7 +122,7 @@ letter-spacing: 3px;
 .logoTopo {
   margin: 0 0 0 2rem;
 }
-.grade a legend{
+.grade button legend{
   display: block;
 }
 .barraCinza {

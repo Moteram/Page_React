@@ -20,19 +20,19 @@ function Footer(){
 
         
 
-          <a className="linkE" href="#">
+          <button className="linkE" href="#">
             <span>< AiFillEnvironment size={40}/></span>
             <p>Encontre uma</p>
             <h4>CONCESSIONÁRIA</h4>
-          </a>
+          </button>
 
         
-        <a className="linkD" href="#">
+        <button className="linkD" href="#">
        
             <p>CENTRAL DE ATENDIMENTO</p>
             <h4>(31) 3123-1234</h4>
 
-        </a>
+        </button>
 
       </div>
 
@@ -42,9 +42,9 @@ function Footer(){
 
       <ul className="redes">
 
-         <li><a href=""><span><FiFacebook /></span></a></li>
-         <li><a href=""><span><FiInstagram /></span></a></li>
-         <li><a href=""><span><FiTwitter /></span></a></li>
+         <li><button><span><FiFacebook size={18}/></span></button></li>
+         <li><button><span><FiInstagram size={18}/></span></button></li>
+         <li><button><span><FiTwitter size={18}/></span></button></li>
 
         </ul>
 
@@ -58,7 +58,7 @@ function Footer(){
 
     <div className="barraBrancaFooter">
 
-      <sectin className="center">
+      <section className="center">
 
       <div className="seguraIcomLogo">
         <img src={LogiIconfooterBam} alt=""/>
@@ -70,7 +70,7 @@ function Footer(){
 
       </div>
 
-      </sectin>
+      </section>
 
 
     </div>

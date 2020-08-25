@@ -9,15 +9,15 @@ return(
             
                 <Carousel autoPlay interval="2000" transitionTime="1000">
                     <div>
-                        <img src={T_11} />
+                        <img src={T_11} alt="car"/>
                       
                     </div>
                     <div>
-                    <img src={T_11} />
+                    <img src={T_11} alt="car"/>
                     </div>
                        
                     <div>
-                    <img src={T_11} />
+                    <img src={T_11} alt="car"/>
                     </div>
                         
                 </Carousel>

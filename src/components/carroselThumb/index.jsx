@@ -1,10 +1,6 @@
 import React from 'react';
 import './style.css';
 
-import T_2 from '../../assets/imges/t2.png';
-import T_3 from '../../assets/imges/t3.png';
-import T_11 from '../../assets/imges/t11.png';
-
 import Carrossel from './carrosel';
 
 function Carrosel(){

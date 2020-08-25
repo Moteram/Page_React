@@ -18,26 +18,26 @@ return(
 
     <div className="grade">
 
-    <a href="" className="iconHouse">
+    <button className="iconHouse">
       <span className="pq"><AiFillHome size={20}/></span>
       <span className="gr"><AiFillHome size={30}/></span>
       <legend>ir para o portal banzai</legend>
-    </a>
+    </button>
 
    <div className="seguraDois">
 
-    <a href="" className="local">
+    <button className="local">
       <span className="pq"><AiFillEnvironment size={20} /></span>
       <span className="gr"><AiFillEnvironment size={30}/></span>
       <legend>encontre sua concesonaria</legend>
-    </a>
+    </button>
 
-    <a href="" className="falar">
+    <button className="falar">
      <span className="pq">< AiFillMail size={20}/></span>
      <span className="gr"><AiFillMail size={30}/></span>
       <legend>fale conosco</legend>
 
-    </a>
+    </button>
 
     </div>
 
@@ -61,9 +61,9 @@ return(
 
       <div className="contatobarraBranca">
 
-        <a className="txtcentral" href="">central de atendimento </a>
+        <button className="txtcentral">central de atendimento </button>
 
-        <a className="fone" href="">31 99954123</a>
+        <button className="fone">31 99954123</button>
 
 
       </div>
